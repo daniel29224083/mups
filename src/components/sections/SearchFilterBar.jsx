@@ -8,7 +8,7 @@ function SearchFilterBar({
   options,
 }) {
   return (
-    <section className="sticky top-[72px] z-30 rounded-2xl border border-white/10 bg-slate-900/85 p-4 backdrop-blur-xl">
+    <section className="relative z-20 rounded-2xl border border-white/10 bg-slate-900/85 p-4 backdrop-blur-xl lg:sticky lg:top-24">
       <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-4">
         <label className="lg:col-span-2">
           <span className="sr-only">Search phone models</span>
