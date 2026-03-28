@@ -1,0 +1,45 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1500" y2="920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1226" />
+      <stop offset="1" stop-color="#111D37" />
+    </linearGradient>
+    <linearGradient id="accentA" x1="340" y1="200" x2="1240" y2="840" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" />
+      <stop offset="1" stop-color="#0EA5E9" />
+    </linearGradient>
+    <linearGradient id="accentB" x1="260" y1="100" x2="1360" y2="880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.5" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1600" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#0EA5E9" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" rx="56" fill="url(#bg)"/>
+
+  <circle cx="240" cy="220" r="220" fill="#22D3EE" fill-opacity="0.08"/>
+  <circle cx="1340" cy="820" r="280" fill="#38BDF8" fill-opacity="0.1"/>
+  <circle cx="1380" cy="180" r="120" fill="#67E8F9" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(370 160)">
+      <rect x="0" y="0" width="360" height="700" rx="54" fill="#0A1022" stroke="url(#accentB)" stroke-opacity="0.35" stroke-width="4"/>
+      <rect x="28" y="32" width="304" height="636" rx="36" fill="#121D39"/>
+      <rect x="136" y="16" width="88" height="10" rx="5" fill="#38BDF8" fill-opacity="0.6"/>
+      <rect x="54" y="98" width="252" height="470" rx="24" fill="url(#accentA)" fill-opacity="0.85"/>
+      <rect x="78" y="594" width="204" height="28" rx="14" fill="#22D3EE" fill-opacity="0.25"/>
+    </g>
+
+    <g transform="translate(760 90) rotate(5 200 360)">
+      <rect x="0" y="0" width="400" height="760" rx="58" fill="#0A1022" stroke="url(#accentB)" stroke-opacity="0.4" stroke-width="4"/>
+      <rect x="30" y="34" width="340" height="692" rx="40" fill="#0F1A33"/>
+      <rect x="154" y="18" width="92" height="10" rx="5" fill="#38BDF8" fill-opacity="0.6"/>
+      <rect x="60" y="120" width="280" height="510" rx="28" fill="url(#accentA)"/>
+      <rect x="104" y="656" width="192" height="30" rx="15" fill="#22D3EE" fill-opacity="0.25"/>
+    </g>
+  </g>
+
+  <text x="100" y="910" fill="#BAE6FD" fill-opacity="0.9" font-family="Arial, sans-serif" font-size="42" font-weight="700">MUPS Premium Smartphone Collection</text>
+</svg>
